@@ -7,10 +7,10 @@ body{
     background-color: #ddd;
 }
 .search-box input {
-    padding: 7px 85px;
+    padding: 10px 87px;
 }
 .search-box button {
-    padding: 7px 11px;
+    padding: 10px 11px;
     background-color: lightseagreen;
 }
 #detailsInfo{
