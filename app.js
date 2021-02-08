@@ -8,7 +8,7 @@ const searchResult = () => {
             displayError(error)
         })
 }
-const displayError = () =>{
+const displayError = noItems =>{
     const notFound=document.getElementById('noFound');
     notFound.innerText="Sorry! Your Foods Item Not Found OR You Can Try First Latter Search"  
 }
