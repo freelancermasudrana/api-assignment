@@ -1,0 +1,42 @@
+body{
+    background-color: chocolate;
+}
+
+.search-box {
+    width: 430px;
+    background-color: #ddd;
+}
+.search-box input {
+    padding: 7px 85px;
+}
+.search-box button {
+    padding: 7px 11px;
+    background-color: lightseagreen;
+}
+#detailsInfo{
+    margin-left: 30%;
+}
+.foodList-wrapper img{
+    width: 100%;
+}
+
+.searchBar{
+    width: 40%;
+    margin: 40px auto;
+}
+.card{
+    height: 100%;
+}
+#container-div{
+    width: 960px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 10px;
+    margin-top: 15px;
+
+}
+.card-body h3{
+color:chartreuse;
+padding:0px 0px;
+}
