@@ -4,6 +4,13 @@ const searchResult = () => {
     fetch(url)
         .then(res => res.json())
         .then(data => displayFood(data.meals))
+        .catch(error=>{
+            displayError(error)
+        })
+}
+const displayError = () =>{
+    const notFound=document.getElementById('noFound');
+    notFound.innerText="Sorry! Your Foods Item Not Found OR You Can Try First Latter Search"  
 }
 const displayFood = mealFood => {
     const container = document.getElementById('container-div')
@@ -28,7 +35,6 @@ const displayDetails = mealDetls => {
     fetch(urlIno)
         .then(res => res.json())
         .then(data => rendarInfo(data.meals[0]))
-
 }
 const rendarInfo = foodIngrdns => {
     const divInfo = document.getElementById('detailsInfo');
