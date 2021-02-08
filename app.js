@@ -43,7 +43,12 @@ const rendarInfo = foodIngrdns => {
     <h6>${foodIngrdns.strIngredient3}</h6>
     <h6>${foodIngrdns.strIngredient4}</h6>
     <h6>${foodIngrdns.strIngredient5}</h6>
-    <ph6${foodIngrdns.strIngredient6}</h6>
+    <h6>${foodIngrdns.strIngredient6}</h6>
+    <h6>${foodIngrdns.strIngredient7}</h6>
+    <h6>${foodIngrdns.strIngredient8}</h6>
+    <h6>${foodIngrdns.strIngredient8}</h6>
+    <h6>${foodIngrdns.strIngredient9}</h6>
+  
 </div>
 </div>
     `
